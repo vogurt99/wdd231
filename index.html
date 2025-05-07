@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Dynamic Web Fundamentals - Samuel Jericho Gomez</title>
+    <meta name="description" content="Home Page of Samuel Jericho Gomez, for the course WDD 131 - Dynamic Web Fundamentals.">
+    <meta name="author" content="Samuel Jericho Gomez">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="images/jericho-portrait.jpg" alt="Portrait of Samuel Jericho Gomez">
+            <h1>Samuel Jericho Gomez</h1>
+        </div>
+        <button id="menu-button" aria-label="Open navigation menu">☰</button>
+        <nav id="nav-menu" class="hidden">
+            <a href="#">Home</a>
+            <a href="#">Chamber</a>
+            <a href="#">Final</a>
+            <a href="https://github.com/vogurt99">GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/sjerichorg">LinkedIn</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="content-row">
+            <section class="course-box-container">
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="city-text-container">
+                <h2>Pasig, Philippines</h2>
+                <img src="images/pasig.jpg" alt="Pasig City Victor Statue">
+                <p><em>The Victor Statue of Pasig City</em></p>
+            </section>
+        </div>
+        <section class="certificate-container">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <button data-filter="all">All</button>
+                <button data-filter="CSE">CSE</button>
+                <button data-filter="WDD">WDD</button>
+            </div>
+            <div id="courseContainer"></div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <span id="copyright"></span> | Samuel Jericho Gomez | Philippines <img src="images/philippines-flag.jpg" alt="Flag of the Philippines">
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</body>
+</html>
