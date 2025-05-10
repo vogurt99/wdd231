@@ -81,12 +81,14 @@ const courses = [
 const courseContainer = document.getElementById('courseContainer');
 const filterButtons = document.querySelectorAll('.filter-buttons button');
 
+const courseCountDisplay = document.createElement('div');
+courseCountDisplay.classList.add('course-count');
+document.querySelector('.certificate-container').insertBefore(courseCountDisplay, courseContainer);
+
 function displayCourses(filter) {
   courseContainer.innerHTML = '';
 
-  const filtered = filter === 'all'
-    ? courses
-    : courses.filter(course => course.subject === filter);
+  const filtered = filter === 'all' ? courses : courses.filter(course => course.subject === filter);
 
   filtered.forEach(course => {
     const card = document.createElement('div');
@@ -116,11 +118,22 @@ function displayCourses(filter) {
   });
 }
 
-displayCourses('all');
+function calculateTotalCourses(filter) {
+  const filteredCourses = filter === 'all' ? courses : courses.filter(course => course.subject === filter);
+  const courseCount = filteredCourses.length;
+
+  courseCountDisplay.textContent = `The total number of courses listed below is ${courseCount}`;
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  displayCourses('all');
+  calculateTotalCourses('all');
+});
 
 filterButtons.forEach(btn => {
   btn.addEventListener('click', () => {
     const filter = btn.getAttribute('data-filter');
     displayCourses(filter);
+    calculateTotalCourses(filter);
   });
 });

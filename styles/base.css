@@ -159,3 +159,9 @@ footer img {
 .filter-buttons button:hover {
     text-decoration: underline overline;
 }
+.course-count {
+    color: #154c79;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
