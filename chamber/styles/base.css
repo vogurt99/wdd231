@@ -86,7 +86,7 @@ footer img {
 }
 .display-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ footer img {
 }
 .display-container section img {
     width: 100%;
-    max-width: 100%;
+    max-width: 480px;
     height: auto;
     object-fit: cover;
 }
