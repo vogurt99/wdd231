@@ -1,0 +1,65 @@
+[
+    {
+      "name": "Generic Pasig 1",
+      "address": "123 Generic St, Pasig City",
+      "phone": "(632) 555-0101",
+      "website": "http://generic1.com",
+      "image": "pasig-generic.jpg",
+      "membership": 1,
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Generic Pasig 2",
+      "address": "124 Generic St, Pasig City",
+      "phone": "(632) 555-0202",
+      "website": "http://generic2.com",
+      "image": "pasig-generic.jpg",
+      "membership": 2,
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Generic Pasig 3",
+      "address": "125 Generic St, Pasig City",
+      "phone": "(632) 555-0303",
+      "website": "http://generic3.com",
+      "image": "pasig-generic.jpg",
+      "membership": 3,
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Generic Pasig 4",
+      "address": "126 Generic St, Pasig City",
+      "phone": "(632) 555-0404",
+      "website": "http://generic4.com",
+      "image": "pasig-generic.jpg",
+      "membership": 1,
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Generic Pasig 5",
+      "address": "127 Generic St, Pasig City",
+      "phone": "(632) 555-0505",
+      "website": "http://generic5.com",
+      "image": "pasig-generic.jpg",
+      "membership": 2,
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Generic Pasig 6",
+      "address": "128 Generic St, Pasig City",
+      "phone": "(632) 555-0606",
+      "website": "http://generic6.com",
+      "image": "pasig-generic.jpg",
+      "membership": 3,
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Generic Pasig 7",
+      "address": "129 Generic St, Pasig City",
+      "phone": "(632) 555-0707",
+      "website": "http://generic7.com",
+      "image": "pasig-generic.jpg",
+      "membership": 1,
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+]
