@@ -15,6 +15,9 @@ header {
     text-align: center;
     width: 100%;
 }
+.site-title {
+    font-size: 2rem;
+}
 #menu-button {
     background: none;
     font-size: 2rem;
