@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Course Home Page - Samuel Jericho Gomez</title>
+    <meta name="description" content="Pasig Chamber of Commerce Homepage of Samuel Jericho Gomez, for the course WDD 231 - Web Frontend Development.">
+    <meta name="author" content="Samuel Jericho Gomez">
+    <meta property="og:title" content="WDD 231 - Pasig Chamber of Commerce Homepage - Samuel Jericho Gomez">
+    <meta property="og:description" content="Pasig Chamber of Commerce Homepage of Samuel Jericho Gomez, for the course WDD 231 - Web Frontend Development.">
+    <meta property="og:image" content="https://vogurt99.github.io/wdd231/chamber/images/pasig.jpg">
+    <meta property="og:url" content="https://vogurt99.github.io/wdd231/chamber/index.html">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="images/pasig.jpg" alt="Portrait of Samuel Jericho Gomez">
+            <span class="site-title">Pasig Chamber of Commerce</span>
+        </div>
+        <button id="menu-button" aria-label="Open navigation menu">☰</button>
+        <nav id="nav-menu" class="hidden">
+            <a href="#">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Business Directory</a>
+            <a href="#">Join</a>
+            <a href="#">About</a>
+            <a href="#">Podcast</a>
+            <a href="#">Events</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="images/pasig-hero.jpg" alt="Hero Image of Pasig City" class="hero-image">
+    </section>
+    <main>
+        <section class="cta-section">
+        <h2>Join the Pasig Chamber of Commerce</h2>
+        <p>Be part of a thriving business community and connect with local businesses in Pasig City.</p>
+        <a href="#" class="cta-button">Join Now</a>
+    </section>
+        <h1>WDD 231 - Pasig Chamber of Commerce Homepage - Samuel Jericho Gomez</h1>
+        <div class="current-events">
+            <section class="current-events-container">
+                <h2>Current Events</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="city-text-container">
+                <h2>Pasig, Philippines</h2>
+                <!-- <img src="images/pasig.jpg" alt="Pasig City Victor Statue"> -->
+                <p><em>The Victor Statue of Pasig City</em></p>
+            </section>
+        </div>
+        <section class="certificate-container">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <button data-filter="all">All</button>
+                <button data-filter="CSE">CSE</button>
+                <button data-filter="WDD">WDD</button>
+            </div>
+            <div id="courseContainer"></div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>Pasig Chamber of Commerce</p>
+            <p>123 Pasig Blvd, Pasig City, Philippines 1600</p>
+            <p>Email: info@pasigcc.org | Phone: (632) 555-2300</p>
+            <p>Samuel Jericho Gomez | WDD 231 | Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("lastModified").textContent = document.lastModified;
+    </script>
+</body>
+</html>

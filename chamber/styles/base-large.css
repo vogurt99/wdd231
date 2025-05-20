@@ -24,6 +24,12 @@
         color: #154c79;
         padding: 1rem;
     }
+    .hero-image {
+        width: 100%;
+        max-width: 2048px;
+        height: auto;
+        margin: 0 auto;
+    }
     main {
         display: flex;
         flex-direction: column;
