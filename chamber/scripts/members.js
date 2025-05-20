@@ -6,23 +6,22 @@ document.addEventListener("DOMContentLoaded", () => {
     async function fetchMembers() {
         try {
             const response = await fetch("data/members.json");
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const members = await response.json();
-            return members;
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            return await response.json();
         } catch (error) {
-            console.error("Error fetching members: ", error);
+            console.error("Error fetching members:", error);
             return [];
         }
     }
 
-    function displayMembers(members, view) {
+    function displayMembers(members, view, limit = null) {
         displayContainer.innerHTML = "";
         displayContainer.classList.remove("grid", "list");
         displayContainer.classList.add(view);
 
-        members.forEach(member => {
+        const limitedMembers = limit ? members.slice(0, limit) : members;
+
+        limitedMembers.forEach(member => {
             const memberElement = document.createElement("section");
             memberElement.innerHTML = `
                 <img src="images/${member.image}" alt="${member.name}">
@@ -36,15 +35,23 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    gridButton.addEventListener("click", async () => {
-        const members = await fetchMembers();
-        displayMembers(members, "grid");
-    });
+    const currentPage = window.location.pathname;
 
-    listButton.addEventListener("click", async () => {
-        const members = await fetchMembers();
-        displayMembers(members, "list");
-    });
+    fetchMembers().then(members => {
+        if (currentPage.includes("index.html")) {
+            displayMembers(members, "grid", 3);
+        } else {
+            displayMembers(members, "grid");
+        }
 
-    fetchMembers().then(members => displayMembers(members, "grid"));
+        if (gridButton && listButton) {
+            gridButton.addEventListener("click", () => {
+                displayMembers(members, "grid");
+            });
+
+            listButton.addEventListener("click", () => {
+                displayMembers(members, "list");
+            });
+        }
+    });
 });

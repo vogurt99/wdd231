@@ -78,17 +78,12 @@ main {
     padding: 1rem;
     margin: 0 auto;
 }
-.current-events-container {
+.current-events-container, .weather-container {
     padding: 0;
     background-color: white;
 }
-.current-events-container ul {
-    margin: 2rem;
-    color: black;
-}
 .current-events-container h2,
-.city-text-container h2,
-.certificate-container h2 {
+.weather-container h2 {
     background-color: #154c79;
     color: white;
     padding: 1rem;
@@ -97,6 +92,25 @@ main {
     font-size: 1rem;
     width: 100%;
     box-sizing: border-box;
+}
+.spotlight-container h2 {
+    background-color: #154c79;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+#event-box, #weather-box {
+    padding: 2rem;
+}
+.spotlight-container {
+    border: none;
+}
+#weather-icon {
+    background-color: #154c79;
 }
 .view-toggle {
     display: none;

@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="styles/base-large.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/course.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -48,29 +49,36 @@
         <a href="#" class="cta-button">Join Now</a>
     </section>
         <h1>WDD 231 - Pasig Chamber of Commerce Homepage - Samuel Jericho Gomez</h1>
-        <div class="current-events">
+        <div class="content-row">
             <section class="current-events-container">
                 <h2>Current Events</h2>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <div id="event-box">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
             </section>
-            <section class="city-text-container">
-                <h2>Pasig, Philippines</h2>
-                <!-- <img src="images/pasig.jpg" alt="Pasig City Victor Statue"> -->
-                <p><em>The Victor Statue of Pasig City</em></p>
+            <section class="weather-container">
+                <h2>Weather</h2>
+                <div id="weather-box">
+                    <p><strong>Temp:</strong> <span id="current-temp"></span></p>
+                    <p><strong>Description:</strong> <span id="weather-desc"></span></p>
+                    <p><strong>High:</strong> <span id="temp-max"></span></p>
+                    <p><strong>Low:</strong> <span id="temp-min"></span></p>
+                    <p><strong>Humidity:</strong> <span id="humidity"></span></p>
+                    <p><strong>Sunrise:</strong> <span id="sunrise"></span></p>
+                    <p><strong>Sunset:</strong> <span id="sunset"></span></p>
+                    <img id="weather-icon" src="" alt="">
+                    <h3>3-Day Forecast</h3>
+                    <ul id="forecast-list"></ul>
+                </div>
             </section>
         </div>
-        <section class="certificate-container">
-            <h2>Web and Computer Programming Certificate</h2>
-            <div class="filter-buttons">
-                <button data-filter="all">All</button>
-                <button data-filter="CSE">CSE</button>
-                <button data-filter="WDD">WDD</button>
-            </div>
-            <div id="courseContainer"></div>
+        <section class="spotlight-container">
+            <h2>Company Spotlight</h2>
+            <div class="display-container grid"></div>
         </section>
     </main>
     <footer>
