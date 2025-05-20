@@ -33,8 +33,12 @@ async function getWeather() {
     sunrise.textContent = sunriseTime;
     sunset.textContent = sunsetTime;
 
-    weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
-    weatherIcon.alt = description;
+    const img = document.createElement("img");
+    img.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+    img.alt = description;
+    img.id = "weather-icon";
+
+    document.getElementById("weather-box").appendChild(img);
 }
 
 async function getForecast() {
