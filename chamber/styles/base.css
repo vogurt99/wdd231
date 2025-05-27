@@ -1,32 +1,44 @@
+:root {
+    --padding: 1rem;
+    --margin: 1rem;
+    --primary-font: 'Roboto', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 header {
     background-color: #154c79;
     color: white;
     text-align: center;
     width: 100%;
 }
+
 .site-title {
     font-size: 2rem;
 }
+
 .hero {
     border: none;
 }
+
 .hero-image {
     width: 100%;
     max-width: 1024px;
     height: auto;
     margin: 0 auto;
 }
+
 #menu-button {
     background: none;
     font-size: 2rem;
@@ -37,32 +49,37 @@ header {
     right: 1rem;
     cursor: pointer;
 }
+
 nav {
     display: flex;
     flex-direction: column;
     background-color: white;
     position: fixed;
     width: 100%;
-    padding: 1rem;
+    padding: var(--padding);
 }
+
 nav a {
     color: #154c79;
     text-decoration: none;
-    padding: 1rem;
+    padding: var(--padding);
     border-bottom: 1px solid #154c79;
 }
+
 a:hover {
     text-decoration: underline overline;
 }
+
 .cta-section {
     width: 100%;
     max-width: 1200px;
-    padding: 1rem;
+    padding: var(--padding);
     margin: 0 auto;
 }
+
 .cta-button {
     display: inline-block;
-    padding: 1rem;
+    padding: var(--padding);
     margin-top: 1rem;
     background-color: #154c79;
     color: #ffffff;
@@ -72,82 +89,100 @@ a:hover {
     text-decoration: none;
     text-align: center;
 }
+
 main {
     width: 100%;
     max-width: 1200px;
-    padding: 1rem;
+    padding: var(--padding);
     margin: 0 auto;
 }
-.current-events-container, .weather-container {
+
+.current-events-container,
+.weather-container {
     padding: 0;
     background-color: white;
 }
+
 .current-events-container h2,
 .weather-container h2 {
     background-color: #154c79;
     color: white;
-    padding: 1rem;
+    padding: var(--padding);
     margin: 0;
     text-align: center;
     font-size: 1rem;
     width: 100%;
     box-sizing: border-box;
 }
+
 .spotlight-container h2 {
     background-color: #154c79;
     color: white;
-    padding: 1rem;
+    padding: var(--padding);
     margin: 0;
     text-align: center;
     font-size: 1rem;
     width: 100%;
     box-sizing: border-box;
 }
-#event-box, #weather-box {
+
+#event-box,
+#weather-box {
     padding: 2rem;
 }
+
 .spotlight-container {
     border: none;
 }
+
 #weather-icon {
     background-color: #154c79;
 }
+
 .view-toggle {
     display: none;
 }
+
 section {
     border: 1px solid #154c79;
     margin-top: 1rem;
 }
+
 footer {
     background-color: #154c79;
     color: white;
     text-align: center;
     width: 100%;
-    padding: 1rem;
+    padding: var(--padding);
 }
+
 footer img {
     height: 32px;
     vertical-align: middle;
     margin-left: 1rem;
 }
+
 .hidden {
     display: none;
 }
+
 .profile {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: var(--padding);
 }
+
 .profile img {
     height: 80px;
     width: 80px;
 }
+
 .profile h1 {
     font-size: 1.5rem;
 }
+
 .display-container {
     width: 100%;
     max-width: 500px;
@@ -156,14 +191,158 @@ footer img {
     flex-direction: column;
     gap: 1rem;
 }
+
 .display-container section {
-    
-    padding: 1rem;
+
+    padding: var(--padding);
     overflow: hidden;
 }
+
 .display-container section img {
     width: 100%;
     max-width: 480px;
     height: auto;
     object-fit: cover;
+}
+
+.membership-cards {
+    margin-top: 2rem;
+    padding: var(--padding);
+    width: 100%;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #154c79;
+    padding: var(--padding);
+    animation: fadeInUp 0.6s ease both;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #154c79;
+}
+
+.card p {
+    margin-bottom: 0.5rem;
+}
+
+.card button {
+    padding: 0.5rem 1rem;
+    background-color: #154c79;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid #154c79;
+    max-width: 500px;
+    width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+.modal-close {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #154c79;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.wf1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--padding);
+    box-sizing: border-box;
+}
+
+.wf1 fieldset {
+    margin: var(--margin);
+    border: 1px solid #b1daf5;
+    padding: var(--padding);
+}
+
+.wf1 legend {
+    color: #435cda;
+    padding: var(--padding);
+}
+
+.wf1 label {
+    display: block;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="email"],
+.wf1 input[type="tel"],
+.wf1 textarea {
+    display: block;
+    padding: var(--padding);
+    border: 1px solid #435cda;
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 1rem;
+}
+
+.wf1 input[type="radio"] {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wf1 textarea {
+    resize: none;
+    height: 6rem;
+}
+
+.wf1 input[type="submit"] {
+    border: none;
+    background-color: #435cda;
+    color: white;
+    padding: var(--padding);
+    width: 240px;
+    margin: var(--margin) 0;
+    cursor: pointer;
+}
+
+.wf1 input:required,
+.wf1 textarea:required,
+.wf1 select:required {
+    border-left: 0.5rem solid red;
+    padding-left: calc(var(--padding));
 }

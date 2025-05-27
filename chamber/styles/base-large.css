@@ -2,34 +2,41 @@
     header {
         text-align: center;
     }
+
     header img {
         height: 150px;
     }
+
     #menu-button {
         display: none;
     }
+
     nav {
         display: flex;
         flex-direction: row;
         padding: 1rem;
         justify-content: space-evenly;
     }
+
     #nav-menu {
         display: flex;
         position: static;
         flex-direction: row;
         background-color: white;
     }
+
     #nav-menu a {
         color: #154c79;
         padding: 1rem;
     }
+
     .hero-image {
         width: 100%;
         max-width: 2048px;
         height: auto;
         margin: 0 auto;
     }
+
     main {
         display: flex;
         flex-direction: column;
@@ -37,21 +44,25 @@
         max-width: 1200px;
         margin: 0 auto;
     }
+
     .content-row {
         display: flex;
         gap: 2rem;
     }
+
     .current-events-container,
     .weather-container {
         flex: 1 1 48%;
         box-sizing: border-box;
     }
+
     .view-toggle {
         display: flex;
         gap: 1rem;
         justify-content: flex-end;
         padding-bottom: 1rem;
     }
+
     .view-toggle button {
         background-color: #154c79;
         color: white;
@@ -61,13 +72,16 @@
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
+
     .view-toggle button:hover {
         background-color: #1e5a91;
     }
+
     .view-toggle button:focus {
         outline: 2px solid #ffda44;
         outline-offset: 2px;
     }
+
     .display-container {
         width: 100%;
         max-width: 100%;
@@ -76,24 +90,45 @@
         flex-direction: column;
         gap: 1rem;
     }
+
     .display-container.grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 1rem;
     }
+
     .display-container.list {
         display: flex;
         flex-direction: column;
     }
+
     .display-container.list section {
         display: flex;
         justify-content: space-between;
         border: none;
     }
+
     .display-container.list section:nth-child(even) {
         background-color: #f0f8ff;
     }
+
     .display-container.list section img {
         display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+        }
+
+        form.wf1 {
+            flex: 1;
+        }
+
+        .membership-cards {
+            flex: 1;
+        }
     }
 }
