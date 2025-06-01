@@ -116,19 +116,11 @@
         display: none;
     }
 
-    @media screen and (min-width: 768px) {
-    main {
-        display: flex;
-        gap: 2rem;
-        align-items: flex-start;
-        }
+    form.wf1 {
+        flex: 1;
+    }
 
-        form.wf1 {
-            flex: 1;
-        }
-
-        .membership-cards {
-            flex: 1;
-        }
+    .membership-cards {
+        flex: 1;
     }
 }
