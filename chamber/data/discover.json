@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Victor Statue",
+        "image": "images/victor.webp",
+        "caption": "Towering Modern Sculpture",
+        "address": "Bridgetowne, Pasig City",
+        "description": "A 60-meter tall artwork symbolizing triumph, located along the Ortigas skyline.",
+        "buttonText": "Learn More"
+    },
+    {
+        "name": "Rainforest Adventure Experience",
+        "image": "images/rave.webp",
+        "caption": "Eco-Park for Family Fun",
+        "address": "F. Legaspi St, Pasig City",
+        "description": "Known as RAVE, this park features a mini-zoo, butterfly pavilion, gardens, and sports areas.",
+        "buttonText": "Learn More"
+    },
+    {
+        "name": "Pasig Cathedral",
+        "image": "images/cathedral.webp",
+        "caption": "Historic Church Since 1573",
+        "address": "Plaza Rizal, Pasig City",
+        "description": "Formally the Immaculate Conception Cathedral, it is the oldest structure in Pasig and a national cultural treasure.",
+        "buttonText": "Learn More"
+    },
+    {
+        "name": "Pasig City Museum",
+        "image": "images/museum.webp",
+        "caption": "Historical & Cultural Museum",
+        "address": "Plaza Rizal, Pasig City",
+        "description": "Housed in a former municipal hall, it showcases artifacts and exhibits from Pasig's rich past.",
+        "buttonText": "Learn More"
+    },
+    {
+        "name": "Kapitolyo Food District",
+        "image": "images/kapitolyo.webp",
+        "caption": "Pasig's Culinary Hub",
+        "address": "Kapitolyo, Pasig City",
+        "description": "A trendy neighborhood filled with diverse restaurants, cafés, and food startups popular among locals and tourists.",
+        "buttonText": "Learn More"
+    },
+    {
+        "name": "Lopez Museum and Library",
+        "image": "images/lopez-museum.webp",
+        "caption": "Filipino Art & History Archive",
+        "address": "Exchange Road, Ortigas Center, Pasig City",
+        "description": "A cultural institution with collections of Filipino masters, rare books, and historical manuscripts. Currently relocating but originally rooted in Pasig.",
+        "buttonText": "Learn More"
+    },
+    {
+        "name": "Pasig Mega Market",
+        "image": "images/market.webp",
+        "caption": "City's Bustling Marketplace",
+        "address": "Market Avenue, Pasig City",
+        "description": "A multi-building public market known for its affordable seafood, vegetables, and dry goods.",
+        "buttonText": "Learn More"
+    },
+    {
+        "name": "Bahay na Tisa",
+        "image": "images/bahay-na-tisa.webp",
+        "caption": "Ancestral Heritage Home",
+        "address": "P. Gomez St, Pasig City",
+        "description": "One of the oldest surviving houses in the city, featuring Spanish colonial architecture and preserved interiors.",
+        "buttonText": "Learn More"
+    }
+]

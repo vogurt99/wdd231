@@ -123,4 +123,15 @@
     .membership-cards {
         flex: 1;
     }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--padding);
+    }
+
+    @media (min-width: 1000px) {
+        .cards-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
 }

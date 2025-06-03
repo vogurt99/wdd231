@@ -346,3 +346,64 @@ footer img {
     border-left: 0.5rem solid red;
     padding-left: calc(var(--padding));
 }
+
+.cards-grid {
+    display: grid;
+    gap: var(--padding);
+    padding: var(--padding);
+    grid-template-columns: 1fr;
+    width: 100%;
+    border: none;
+}
+
+.cards-grid .card {
+    background-color: #ffffff;
+    border: 1px solid #154c79;
+    padding: var(--padding);
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-grid .card h2 {
+    color: #154c79;
+    margin-bottom: var(--padding);
+    font-size: 1.25rem;
+}
+
+.cards-grid .card figure {
+    margin: 0;
+}
+
+.cards-grid .card img {
+    width: 100%;
+    height: auto;
+}
+
+.cards-grid .card figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.25rem;
+}
+
+.cards-grid .card address {
+    font-style: normal;
+    margin-top: var(--padding);
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.cards-grid .card p {
+    margin-top: var(--padding);
+    font-size: 1rem;
+}
+
+.cards-grid .card button {
+    margin-top: var(--padding);
+    padding: 0.5rem 1rem;
+    background-color: #154c79;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
