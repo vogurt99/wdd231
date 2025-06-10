@@ -69,6 +69,14 @@ body img {
     max-width: 100%;
 }
 
+.hero-image {
+    display: block;
+}
+
+.hema-image {
+    display: block;
+}
+
 .hero {
     border: none;
     padding: 0;
