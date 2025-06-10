@@ -79,8 +79,14 @@ body img {
 }
 
 .hero-image {
-    display: block;
+  width: 100vw;           /* Full screen width */
+  height: auto;           /* Maintain aspect ratio */
+  display: block;         /* Remove inline spacing */
+  object-fit: cover;      /* Ensure it doesn't distort */
+  margin: 0;
+  padding: 0;
 }
+
 
 .hema-image {
     display: block;
