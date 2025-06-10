@@ -30,6 +30,11 @@
     display: none;
 }
 
+.site-title-text {
+    font-family: var(--accent-font);
+    font-size: 1.5rem;
+}
+
 nav {
     display: flex;
     flex-direction: column;

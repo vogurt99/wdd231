@@ -11,6 +11,10 @@
         display: none;
     }
 
+    .site-title-text {
+        font-size: 3rem;
+    }
+
     nav {
         display: flex;
         flex-direction: row;
