@@ -30,8 +30,11 @@
     display: none;
 }
 
-.site-title-text {
+.site-title {
     font-family: var(--accent-font);
+}
+
+.site-title-text {
     font-size: 1.5rem;
 }
 
