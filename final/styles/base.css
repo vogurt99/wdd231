@@ -15,11 +15,6 @@
     padding: 0;
 }
 
-.site-title {
-    color: var(--accent-color);
-    font-family: var(--accent-font);
-}
-
 #menu-button {
     background: none;
     font-size: 2rem;
