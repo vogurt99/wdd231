@@ -79,10 +79,10 @@ body img {
 }
 
 .hero-image {
-  width: 100vw;           /* Full screen width */
-  height: auto;           /* Maintain aspect ratio */
-  display: block;         /* Remove inline spacing */
-  object-fit: cover;      /* Ensure it doesn't distort */
+  width: 100vw;
+  height: auto;
+  display: block;
+  object-fit: cover;
   margin: 0;
   padding: 0;
 }
