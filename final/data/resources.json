@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Generic 1",
+        "type": "Resource",
+        "description": "This is a generic description for resource 1.",
+        "link": "https://example.com/resource1"
+    },
+    {
+        "name": "Generic 2",
+        "type": "Resource",
+        "description": "This is a generic description for resource 2.",
+        "link": "https://example.com/resource2"
+    },
+    {
+        "name": "Generic 3",
+        "type": "Resource",
+        "description": "This is a generic description for resource 3.",
+        "link": "https://example.com/resource3"
+    },
+    {
+        "name": "Generic 4",
+        "type": "Resource",
+        "description": "This is a generic description for resource 4.",
+        "link": "https://example.com/resource4"
+    },
+    {
+        "name": "Generic 5",
+        "type": "Resource",
+        "description": "This is a generic description for resource 5.",
+        "link": "https://example.com/resource5"
+    },
+    {
+        "name": "Generic 6",
+        "type": "Resource",
+        "description": "This is a generic description for resource 6.",
+        "link": "https://example.com/resource6"
+    },
+    {
+        "name": "Generic 7",
+        "type": "Resource",
+        "description": "This is a generic description for resource 7.",
+        "link": "https://example.com/resource7"
+    },
+    {
+        "name": "Generic 8",
+        "type": "Resource",
+        "description": "This is a generic description for resource 8.",
+        "link": "https://example.com/resource8"
+    },
+    {
+        "name": "Generic 9",
+        "type": "Resource",
+        "description": "This is a generic description for resource 9.",
+        "link": "https://example.com/resource9"
+    },
+    {
+        "name": "Generic 10",
+        "type": "Resource",
+        "description": "This is a generic description for resource 10.",
+        "link": "https://example.com/resource10"
+    },
+    {
+        "name": "Generic 11",
+        "type": "Resource",
+        "description": "This is a generic description for resource 11.",
+        "link": "https://example.com/resource11"
+    },
+    {
+        "name": "Generic 12",
+        "type": "Resource",
+        "description": "This is a generic description for resource 12.",
+        "link": "https://example.com/resource12"
+    },
+    {
+        "name": "Generic 13",
+        "type": "Resource",
+        "description": "This is a generic description for resource 13.",
+        "link": "https://example.com/resource13"
+    },
+    {
+        "name": "Generic 14",
+        "type": "Resource",
+        "description": "This is a generic description for resource 14.",
+        "link": "https://example.com/resource14"
+    },
+    {
+        "name": "Generic 15",
+        "type": "Resource",
+        "description": "This is a generic description for resource 15.",
+        "link": "https://example.com/resource15"
+    }
+]

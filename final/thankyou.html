@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231 - Pasig Chamber of Commerce Join Page - Samuel Jericho Gomez</title>
+    <title>WDD 231 - Riverborn HEMA Club Thank You Page - Samuel Jericho Gomez</title>
     <meta name="description"
-        content="Pasig Chamber of Commerce Join Page of Samuel Jericho Gomez, for the course WDD 231 - Web Frontend Development.">
+        content="Riverborn HEMA Club Thank You Page of Samuel Jericho Gomez, for the course WDD 231 - Web Frontend Development.">
     <meta name="author" content="Samuel Jericho Gomez">
-    <meta property="og:title" content="WDD 231 - Pasig Chamber of Commerce Join Page - Samuel Jericho Gomez">
+    <meta property="og:title" content="WDD 231 - Riverborn HEMA Club Thank You Page - Samuel Jericho Gomez">
     <meta property="og:description"
-        content="Pasig Chamber of Commerce Join Page of Samuel Jericho Gomez, for the course WDD 231 - Web Frontend Development.">
-    <meta property="og:image" content="https://vogurt99.github.io/wdd231/chamber/images/pasig.jpg">
-    <meta property="og:url" content="https://vogurt99.github.io/wdd231/chamber/index.html">
+        content="Riverborn HEMA Club Thank You Page of Samuel Jericho Gomez, for the course WDD 231 - Web Frontend Development.">
+    <meta property="og:image" content="images/pasig-river.jpg">
+    <meta property="og:url" content="https://vogurt99.github.io/wdd231/final/index.html">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-large.css">
@@ -27,19 +27,14 @@
 
 <body>
     <header>
-        <div class="profile">
-            <img src="images/pasig.jpg" alt="Portrait of Samuel Jericho Gomez">
-            <span class="site-title">Pasig Chamber of Commerce</span>
-        </div>
+        <span class="site-title">
+            <h1>Riverborn HEMA Club</h1>
+        </span>
         <button id="menu-button" aria-label="Open navigation menu">☰</button>
         <nav id="nav-menu" class="hidden">
             <a href="index.html">Home</a>
-            <a href="discover.html">Discover</a>
-            <a href="directory.html">Business Directory</a>
-            <a href="join.html">Join</a>
-            <a href="#">About</a>
-            <a href="#">Podcast</a>
-            <a href="#">Events</a>
+            <a href="classes.html">Classes</a>
+            <a href="resources.html">Resources</a>
         </nav>
     </header>
     <main>
@@ -53,23 +48,17 @@
                 <li><strong>Last Name:</strong> <span id="out-lname"></span></li>
                 <li><strong>Email:</strong> <span id="out-email"></span></li>
                 <li><strong>Phone:</strong> <span id="out-phone"></span></li>
-                <li><strong>Organization Name:</strong> <span id="out-org"></span></li>
-                <li><strong>Submitted On:</strong> <span id="out-timestamp"></span></li>
             </ul>
         </section>
-        <a href="../index.html">Return to Home</a>
+        <a href="index.html">Return to Home</a>
     </main>
     <footer>
-        <div>
-            <p>Pasig Chamber of Commerce</p>
-            <p>123 Pasig Blvd, Pasig City, Philippines 1600</p>
-            <p>Email: info@pasigcc.org | Phone: (632) 555-2300</p>
-            <p>Samuel Jericho Gomez | WDD 231 | Last Modified: <span id="lastModified"></span></p>
-        </div>
+        <p>
+            <span id="copyright"></span> | Riverborn HEMA Club | Pasig, Philippines <img
+                src="images/philippines-flag.jpg" alt="Flag of the Philippines">
+        </p>
+        <p id="lastModified"></p>
     </footer>
-    <script>
-        document.getElementById("lastModified").textContent = document.lastModified;
-    </script>
 </body>
 
 </html>

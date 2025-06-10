@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Riverborn HEMA Club Resource Page - Samuel Jericho Gomez</title>
+    <meta name="description"
+        content="Riverborn HEMA Club Resource Page of Samuel Jericho Gomez, for the course WDD 231 - Web Frontend Development.">
+    <meta name="author" content="Samuel Jericho Gomez">
+    <meta property="og:title" content="WDD 231 - Riverborn HEMA Club Resource Page - Samuel Jericho Gomez">
+    <meta property="og:description"
+        content="Riverborn HEMA Club Resource Page of Samuel Jericho Gomez, for the course WDD 231 - Web Frontend Development.">
+    <meta property="og:image" content="images/pasig-river.jpg">
+    <meta property="og:url" content="https://vogurt99.github.io/wdd231/final/index.html">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/resources.js" defer></script>
+
+    <script type="module" src="scripts/index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <span class="site-title">
+            <h1>Riverborn HEMA Club</h1>
+        </span>
+        <button id="menu-button" aria-label="Open navigation menu">☰</button>
+        <nav id="nav-menu" class="hidden">
+            <a href="index.html">Home</a>
+            <a href="classes.html">Classes</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+    </header>
+    <main>
+        <h1>WDD 231 - Riverborn HEMA Resource Page - Samuel Jericho Gomez</h1>
+        <div class="view-toggle">
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
+        </div>
+        <div class="display-container grid"></div>
+    </main>
+    <footer>
+        <p>
+            <span id="copyright"></span> | Riverborn HEMA Club | Pasig, Philippines <img
+                src="images/philippines-flag.jpg" alt="Flag of the Philippines">
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
