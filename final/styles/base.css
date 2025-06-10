@@ -32,6 +32,7 @@
 
 .site-title {
     font-family: var(--accent-font);
+    color: var(--accent-color);
 }
 
 .site-title-text {
