@@ -173,6 +173,21 @@ footer img {
     margin-left: 1rem;
 }
 
+#schedule-section,
+#class-section {
+    border: none;
+    justify-content: center;
+}
+
+#schedule-section .class-card {
+    border: 1px solid var(--accent-color);
+    border-radius: var(--radius);
+    padding: var(--padding);
+    margin: var(--margin);
+}
+
+
+/* Join Form */
 .wf1 {
     width: 100%;
     max-width: 1200px;
@@ -341,6 +356,7 @@ footer img {
     padding: var(--padding);
     border: 2px solid var(--accent-color);
     border-radius: var(--radius);
+    background-color: rgb(255, 255, 255);
     max-width: 400px;
     width: 90%;
     font-family: var(--primary-font);

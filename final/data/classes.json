@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Beginner Longsword",
+        "day": "Monday & Wednesday",
+        "time": "6:00 PM - 7:30 PM",
+        "location": "Community Gym"
+    },
+    {
+        "name": "Intermediate Sparring",
+        "day": "Tuesday & Thursday",
+        "time": "6:00 PM - 8:00 PM",
+        "location": "Community Gym"
+    },
+    {
+        "name": "Youth Swordplay",
+        "day": "Friday & Saturday",
+        "time": "10:00 AM - 12:00 PM",
+        "location": "Community Gym"
+    }
+]

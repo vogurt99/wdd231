@@ -57,4 +57,17 @@
         flex: 1 1 48%;
         box-sizing: border-box;
     }
+
+    #class-section {
+        display: flex;
+        justify-content: space-evenly;
+        gap: var(--margin);
+        width: 100%;
+    }
+
+    #schedule-section .class-card {
+        border: 1px solid var(--accent-color);
+        border-radius: 6px;
+        width: 100%;
+    }
 }
