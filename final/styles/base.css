@@ -5,7 +5,6 @@
     --accent-font: 'Cinzel', serif;
     --primary-color: #1f1f1f;
     --accent-color: #d4af37;
-    --white: #ffffff;
     --radius: 6px;
 }
 
@@ -68,7 +67,7 @@ nav a.active {
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--white);
+    background-color: white;
     color: var(--primary-color);
     line-height: 1.5;
 }
@@ -87,7 +86,6 @@ body img {
   padding: 0;
 }
 
-
 .hema-image {
     display: block;
 }
@@ -104,9 +102,17 @@ body img {
 header,
 footer {
     background-color: var(--primary-color);
-    color: var(--white);
+    color: white;
     text-align: center;
     padding: var(--padding);
+}
+
+.video-link {
+  color: white;
+}
+
+.video-link:visited {
+  color: white;
 }
 
 header h1 {
@@ -249,7 +255,7 @@ footer img {
     border-radius: var(--radius);
     font-family: var(--primary-font);
     font-size: 1rem;
-    background-color: var(--white);
+    background-color: white;
     color: var(--primary-color);
 }
 
